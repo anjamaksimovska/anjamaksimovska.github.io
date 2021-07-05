@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans' , sans-serif;
+}
+body{
+    background: #f3f5f9;
+}
+.meni{
+    display: flex;
+    position: relative;
+}
+.meni .strana{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    padding: 30px 0;
+}
+.meni .strana .slika{
+    width:150px;
+    height:150px;
+    margin-left: 22px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.meni .strana ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+    font-size: 17px;
+}
+
+.meni .strana ul li a{
+    color: #bdb8d7;
+    display: block;
+}
+.meni .strana ul li:hover{
+    background: #594f8d;
+}
+.meni .strana ul li:hover a{
+    color: #fff;
+}
+.meni .strana .kontakt {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    font-size: 18px;
+}
+
+.meni .strana .kontakt a{
+    display: block;
+    width: 75px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 8px;
+}
+.meni .strana .kontakt:hover a{
+    color: #fff;
+}
+
+.meni .glaven{
+    width: 100%;
+    margin-left: 200px;
+}
+
+.meni .glaven h3{
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#about_me, #education, #hobbies{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 17px;
+    margin-right: 50px;
+}
+#kraj{
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 18px;
+    margin-right: 50px;
+}
+.fotki{
+    display: inline-flex;
+}
+#lazo, #finki, #rjk{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 60px;
+    box-shadow: .75em .75em 1em;
+    color: darkgray;
+}
+
+#godini{
+    margin-top: 150px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#education, #hobbies, #about_me{
+    font-size: 18px;
+}
+
+#kolaz{
+    width: 500px;
+    height: 300px;
+    margin-left: 43px;
+    display: inline-flex;
+    margin-top: 10px;
+    border-radius: 7%;
+    filter: drop-shadow(.75em .75em .75em);
+}
+
+#about_me{
+    display: inline-block;
+    width:600px;
+}
+
+#rezime{
+    width:400px;
+    display: inline-block;
+    margin-left: 670px;
+    margin-top: -350px;
+}
+
+#rezime:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
